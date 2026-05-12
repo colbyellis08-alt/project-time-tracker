@@ -489,6 +489,7 @@ export default function App() {
       margin: "6px 0",
     },
     muted: { color: "#64748b", fontSize: "14px" },
+    historyDescription: { color: "#475569", fontSize: "14px", lineHeight: 1.5 },
     controls: {
       display: "flex",
       flexWrap: "wrap",
@@ -773,7 +774,7 @@ export default function App() {
           <div style={{ display: "flex", justifyContent: "space-between", gap: "12px", alignItems: "center", flexWrap: "wrap" }}>
             <div>
               <h2 style={{ margin: 0, fontSize: "24px" }}>Seven-Day History</h2>
-              <p style={{ ...styles.muted, margin: "6px 0 0" }}>
+              <p style={{ ...styles.historyDescription, margin: "6px 0 0" }}>
                 Stored locally in this browser. Select a day to review project totals.
               </p>
             </div>
